@@ -6,102 +6,135 @@
 ## Main toolbar buttons (tooltips and alt text for images)
 
 pdfjs-previous-button =
-    .title = முந்தைய பக்கம்
-pdfjs-previous-button-label = முந்தையது
+    .title = Pagina precedenta
+pdfjs-previous-button-label = Precedent
 pdfjs-next-button =
-    .title = அடுத்த பக்கம்
-pdfjs-next-button-label = அடுத்து
+    .title = Pagina seguenta
+pdfjs-next-button-label = Seguent
 # .title: Tooltip for the pageNumber input.
 pdfjs-page-input =
-    .title = பக்கம்
+    .title = Pagina
 # Variables:
 #   $pagesCount (Number) - the total number of pages in the document
 # This string follows an input field with the number of the page currently displayed.
-pdfjs-of-pages = { $pagesCount } இல்
+pdfjs-of-pages = sus { $pagesCount }
 # Variables:
 #   $pageNumber (Number) - the currently visible page
 #   $pagesCount (Number) - the total number of pages in the document
-pdfjs-page-of-pages = { $pagesCount }) இல் ({ $pageNumber }
+pdfjs-page-of-pages = ({ $pageNumber } de { $pagesCount })
 pdfjs-zoom-out-button =
-    .title = சிறிதாக்கு
-pdfjs-zoom-out-button-label = சிறிதாக்கு
+    .title = Zoom arrièr
+pdfjs-zoom-out-button-label = Zoom arrièr
 pdfjs-zoom-in-button =
-    .title = பெரிதாக்கு
-pdfjs-zoom-in-button-label = பெரிதாக்கு
+    .title = Zoom avant
+pdfjs-zoom-in-button-label = Zoom avant
 pdfjs-zoom-select =
-    .title = பெரிதாக்கு
+    .title = Zoom
 pdfjs-presentation-mode-button =
-    .title = விளக்ககாட்சி பயன்முறைக்கு மாறு
-pdfjs-presentation-mode-button-label = விளக்ககாட்சி பயன்முறை
+    .title = Bascular en mòde presentacion
+pdfjs-presentation-mode-button-label = Mòde Presentacion
 pdfjs-open-file-button =
-    .title = கோப்பினை திற
-pdfjs-open-file-button-label = திற
+    .title = Dobrir lo fichièr
+pdfjs-open-file-button-label = Dobrir
 pdfjs-print-button =
-    .title = அச்சிடு
-pdfjs-print-button-label = அச்சிடு
+    .title = Imprimir
+pdfjs-print-button-label = Imprimir
+pdfjs-save-button =
+    .title = Enregistrar
+pdfjs-save-button-label = Enregistrar
+# Used in Firefox for Android as a tooltip for the download button (“download” is a verb).
+pdfjs-download-button =
+    .title = Telecargar
+# Used in Firefox for Android as a label for the download button (“download” is a verb).
+# Length of the translation matters since we are in a mobile context, with limited screen estate.
+pdfjs-download-button-label = Telecargar
+pdfjs-bookmark-button =
+    .title = Pagina actuala (mostrar l’adreça de la pagina actuala)
+pdfjs-bookmark-button-label = Pagina actuala
 
 ##  Secondary toolbar and context menu
 
 pdfjs-tools-button =
-    .title = கருவிகள்
-pdfjs-tools-button-label = கருவிகள்
+    .title = Aisinas
+pdfjs-tools-button-label = Aisinas
 pdfjs-first-page-button =
-    .title = முதல் பக்கத்திற்கு செல்லவும்
-pdfjs-first-page-button-label = முதல் பக்கத்திற்கு செல்லவும்
+    .title = Anar a la primièra pagina
+pdfjs-first-page-button-label = Anar a la primièra pagina
 pdfjs-last-page-button =
-    .title = கடைசி பக்கத்திற்கு செல்லவும்
-pdfjs-last-page-button-label = கடைசி பக்கத்திற்கு செல்லவும்
+    .title = Anar a la darrièra pagina
+pdfjs-last-page-button-label = Anar a la darrièra pagina
 pdfjs-page-rotate-cw-button =
-    .title = வலஞ்சுழியாக சுழற்று
-pdfjs-page-rotate-cw-button-label = வலஞ்சுழியாக சுழற்று
+    .title = Rotacion orària
+pdfjs-page-rotate-cw-button-label = Rotacion orària
 pdfjs-page-rotate-ccw-button =
-    .title = இடஞ்சுழியாக சுழற்று
-pdfjs-page-rotate-ccw-button-label = இடஞ்சுழியாக சுழற்று
+    .title = Rotacion antiorària
+pdfjs-page-rotate-ccw-button-label = Rotacion antiorària
 pdfjs-cursor-text-select-tool-button =
-    .title = உரைத் தெரிவு கருவியைச் செயல்படுத்து
-pdfjs-cursor-text-select-tool-button-label = உரைத் தெரிவு கருவி
+    .title = Activar l'aisina de seleccion de tèxte
+pdfjs-cursor-text-select-tool-button-label = Aisina de seleccion de tèxte
 pdfjs-cursor-hand-tool-button =
-    .title = கைக் கருவிக்ச் செயற்படுத்து
-pdfjs-cursor-hand-tool-button-label = கைக்குருவி
+    .title = Activar l’aisina man
+pdfjs-cursor-hand-tool-button-label = Aisina man
+pdfjs-scroll-page-button =
+    .title = Activar lo defilament per pagina
+pdfjs-scroll-page-button-label = Defilament per pagina
+pdfjs-scroll-vertical-button =
+    .title = Utilizar lo defilament vertical
+pdfjs-scroll-vertical-button-label = Defilament vertical
+pdfjs-scroll-horizontal-button =
+    .title = Utilizar lo defilament orizontal
+pdfjs-scroll-horizontal-button-label = Defilament orizontal
+pdfjs-scroll-wrapped-button =
+    .title = Activar lo defilament continú
+pdfjs-scroll-wrapped-button-label = Defilament continú
+pdfjs-spread-none-button =
+    .title = Agropar pas las paginas doas a doas
+pdfjs-spread-none-button-label = Una sola pagina
+pdfjs-spread-odd-button =
+    .title = Mostrar doas paginas en començant per las paginas imparas a esquèrra
+pdfjs-spread-odd-button-label = Dobla pagina, impara a drecha
+pdfjs-spread-even-button =
+    .title = Mostrar doas paginas en començant per las paginas paras a esquèrra
+pdfjs-spread-even-button-label = Dobla pagina, para a drecha
 
 ## Document properties dialog
 
 pdfjs-document-properties-button =
-    .title = ஆவண பண்புகள்...
-pdfjs-document-properties-button-label = ஆவண பண்புகள்...
-pdfjs-document-properties-file-name = கோப்பு பெயர்:
-pdfjs-document-properties-file-size = கோப்பின் அளவு:
+    .title = Proprietats del document…
+pdfjs-document-properties-button-label = Proprietats del document…
+pdfjs-document-properties-file-name = Nom del fichièr :
+pdfjs-document-properties-file-size = Talha del fichièr :
 # Variables:
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
-pdfjs-document-properties-kb = { $size_kb } கிபை ({ $size_b } பைட்டுகள்)
+pdfjs-document-properties-kb = { $size_kb } Ko ({ $size_b } octets)
 # Variables:
 #   $size_mb (Number) - the PDF file size in megabytes
 #   $size_b (Number) - the PDF file size in bytes
-pdfjs-document-properties-mb = { $size_mb } மெபை ({ $size_b } பைட்டுகள்)
-pdfjs-document-properties-title = தலைப்பு:
-pdfjs-document-properties-author = எழுதியவர்
-pdfjs-document-properties-subject = பொருள்:
-pdfjs-document-properties-keywords = முக்கிய வார்த்தைகள்:
-pdfjs-document-properties-creation-date = படைத்த தேதி :
-pdfjs-document-properties-modification-date = திருத்திய தேதி:
+pdfjs-document-properties-mb = { $size_mb } Mo ({ $size_b } octets)
+pdfjs-document-properties-title = Títol :
+pdfjs-document-properties-author = Autor :
+pdfjs-document-properties-subject = Subjècte :
+pdfjs-document-properties-keywords = Mots claus :
+pdfjs-document-properties-creation-date = Data de creacion :
+pdfjs-document-properties-modification-date = Data de modificacion :
 # Variables:
 #   $date (Date) - the creation/modification date of the PDF file
 #   $time (Time) - the creation/modification time of the PDF file
-pdfjs-document-properties-date-string = { $date }, { $time }
-pdfjs-document-properties-creator = உருவாக்குபவர்:
-pdfjs-document-properties-producer = பிடிஎஃப் தயாரிப்பாளர்:
-pdfjs-document-properties-version = PDF பதிப்பு:
-pdfjs-document-properties-page-count = பக்க எண்ணிக்கை:
-pdfjs-document-properties-page-size = பக்க அளவு:
-pdfjs-document-properties-page-size-unit-inches = இதில்
+pdfjs-document-properties-date-string = { $date }, a { $time }
+pdfjs-document-properties-creator = Creator :
+pdfjs-document-properties-producer = Aisina de conversion PDF :
+pdfjs-document-properties-version = Version PDF :
+pdfjs-document-properties-page-count = Nombre de paginas :
+pdfjs-document-properties-page-size = Talha de la pagina :
+pdfjs-document-properties-page-size-unit-inches = in
 pdfjs-document-properties-page-size-unit-millimeters = mm
-pdfjs-document-properties-page-size-orientation-portrait = நிலைபதிப்பு
-pdfjs-document-properties-page-size-orientation-landscape = நிலைபரப்பு
+pdfjs-document-properties-page-size-orientation-portrait = retrach
+pdfjs-document-properties-page-size-orientation-landscape = païsatge
 pdfjs-document-properties-page-size-name-a-three = A3
 pdfjs-document-properties-page-size-name-a-four = A4
-pdfjs-document-properties-page-size-name-letter = கடிதம்
-pdfjs-document-properties-page-size-name-legal = சட்டபூர்வ
+pdfjs-document-properties-page-size-name-letter = Letra
+pdfjs-document-properties-page-size-name-legal = Document juridic
 
 ## Variables:
 ##   $width (Number) - the width of the (current) page
@@ -110,114 +143,219 @@ pdfjs-document-properties-page-size-name-legal = சட்டபூர்வ
 ##   $name (String) - the name of the (current) page
 ##   $orientation (String) - the orientation of the (current) page
 
-pdfjs-document-properties-page-size-dimension-string = { $width } × { $height } { $unit } ({ $orientation })
-pdfjs-document-properties-page-size-dimension-name-string = { $width } × { $height } { $unit } ({ $name }, { $orientation })
+pdfjs-document-properties-page-size-dimension-string = { $width } × { $height } { $unit } ({ $orientation })
+pdfjs-document-properties-page-size-dimension-name-string = { $width } × { $height } { $unit } ({ $name }, { $orientation })
 
 ##
 
-pdfjs-document-properties-close-button = மூடுக
+# The linearization status of the document; usually called "Fast Web View" in
+# English locales of Adobe software.
+pdfjs-document-properties-linearized = Vista web rapida :
+pdfjs-document-properties-linearized-yes = Òc
+pdfjs-document-properties-linearized-no = Non
+pdfjs-document-properties-close-button = Tampar
 
 ## Print
 
-pdfjs-print-progress-message = அச்சிடுவதற்கான ஆவணம் தயாராகிறது...
+pdfjs-print-progress-message = Preparacion del document per l’impression…
 # Variables:
 #   $progress (Number) - percent value
 pdfjs-print-progress-percent = { $progress }%
-pdfjs-print-progress-close-button = ரத்து
-pdfjs-printing-not-supported = எச்சரிக்கை: இந்த உலாவி அச்சிடுதலை முழுமையாக ஆதரிக்கவில்லை.
-pdfjs-printing-not-ready = எச்சரிக்கை: PDF அச்சிட முழுவதுமாக ஏற்றப்படவில்லை.
+pdfjs-print-progress-close-button = Anullar
+pdfjs-printing-not-supported = Atencion : l'impression es pas complètament gerida per aqueste navegador.
+pdfjs-printing-not-ready = Atencion : lo PDF es pas entièrament cargat per lo poder imprimir.
 
 ## Tooltips and alt text for side panel toolbar buttons
 
 pdfjs-toggle-sidebar-button =
-    .title = பக்கப் பட்டியை நிலைமாற்று
-pdfjs-toggle-sidebar-button-label = பக்கப் பட்டியை நிலைமாற்று
+    .title = Afichar/amagar lo panèl lateral
+pdfjs-toggle-sidebar-notification-button =
+    .title = Afichar/amagar lo panèl lateral (lo document conten esquèmas/pèças juntas/calques)
+pdfjs-toggle-sidebar-button-label = Afichar/amagar lo panèl lateral
 pdfjs-document-outline-button =
-    .title = ஆவண அடக்கத்தைக் காட்டு (இருமுறைச் சொடுக்கி அனைத்து உறுப்பிடிகளையும் விரி/சேர்)
-pdfjs-document-outline-button-label = ஆவண வெளிவரை
+    .title = Mostrar los esquèmas del document (dobleclicar per espandre/reduire totes los elements)
+pdfjs-document-outline-button-label = Marcapaginas del document
 pdfjs-attachments-button =
-    .title = இணைப்புகளை காண்பி
-pdfjs-attachments-button-label = இணைப்புகள்
+    .title = Visualizar las pèças juntas
+pdfjs-attachments-button-label = Pèças juntas
+pdfjs-layers-button =
+    .title = Afichar los calques (doble-clicar per reïnicializar totes los calques a l’estat per defaut)
+pdfjs-layers-button-label = Calques
 pdfjs-thumbs-button =
-    .title = சிறுபடங்களைக் காண்பி
-pdfjs-thumbs-button-label = சிறுபடங்கள்
+    .title = Afichar las vinhetas
+pdfjs-thumbs-button-label = Vinhetas
+pdfjs-current-outline-item-button =
+    .title = Trobar l’element de plan actual
+pdfjs-current-outline-item-button-label = Element de plan actual
 pdfjs-findbar-button =
-    .title = ஆவணத்தில் கண்டறி
-pdfjs-findbar-button-label = தேடு
+    .title = Cercar dins lo document
+pdfjs-findbar-button-label = Recercar
+pdfjs-additional-layers = Calques suplementaris
 
 ## Thumbnails panel item (tooltip and alt text for images)
 
 # Variables:
 #   $page (Number) - the page number
 pdfjs-thumb-page-title =
-    .title = பக்கம் { $page }
+    .title = Pagina { $page }
 # Variables:
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
-    .aria-label = பக்கத்தின் சிறுபடம் { $page }
+    .aria-label = Vinheta de la pagina { $page }
 
 ## Find panel button title and messages
 
 pdfjs-find-input =
-    .title = கண்டுபிடி
-    .placeholder = ஆவணத்தில் கண்டறி…
+    .title = Recercar
+    .placeholder = Cercar dins lo document…
 pdfjs-find-previous-button =
-    .title = இந்த சொற்றொடரின் முந்தைய நிகழ்வை தேடு
-pdfjs-find-previous-button-label = முந்தையது
+    .title = Tròba l'ocurréncia precedenta de la frasa
+pdfjs-find-previous-button-label = Precedent
 pdfjs-find-next-button =
-    .title = இந்த சொற்றொடரின் அடுத்த நிகழ்வை தேடு
-pdfjs-find-next-button-label = அடுத்து
-pdfjs-find-highlight-checkbox = அனைத்தையும் தனிப்படுத்து
-pdfjs-find-match-case-checkbox-label = பேரெழுத்தாக்கத்தை உணர்
-pdfjs-find-reached-top = ஆவணத்தின் மேல் பகுதியை அடைந்தது, அடிப்பக்கத்திலிருந்து தொடர்ந்தது
-pdfjs-find-reached-bottom = ஆவணத்தின் முடிவை அடைந்தது, மேலிருந்து தொடர்ந்தது
-pdfjs-find-not-found = சொற்றொடர் காணவில்லை
+    .title = Tròba l'ocurréncia venenta de la frasa
+pdfjs-find-next-button-label = Seguent
+pdfjs-find-highlight-checkbox = Suslinhar tot
+pdfjs-find-match-case-checkbox-label = Respectar la cassa
+pdfjs-find-match-diacritics-checkbox-label = Respectar los diacritics
+pdfjs-find-entire-word-checkbox-label = Mots entièrs
+pdfjs-find-reached-top = Naut de la pagina atenh, perseguida del bas
+pdfjs-find-reached-bottom = Bas de la pagina atench, perseguida al començament
+pdfjs-find-not-found = Frasa pas trobada
 
 ## Predefined zoom values
 
-pdfjs-page-scale-width = பக்க அகலம்
-pdfjs-page-scale-fit = பக்கப் பொருத்தம்
-pdfjs-page-scale-auto = தானியக்க பெரிதாக்கல்
-pdfjs-page-scale-actual = உண்மையான அளவு
+pdfjs-page-scale-width = Largor plena
+pdfjs-page-scale-fit = Pagina entièra
+pdfjs-page-scale-auto = Zoom automatic
+pdfjs-page-scale-actual = Talha vertadièra
 # Variables:
 #   $scale (Number) - percent value for page scale
 pdfjs-page-scale-percent = { $scale }%
 
 ## PDF page
 
+# Variables:
+#   $page (Number) - the page number
+pdfjs-page-landmark =
+    .aria-label = Pagina { $page }
 
 ## Loading indicator messages
 
-pdfjs-loading-error = PDF ஐ ஏற்றும் போது ஒரு பிழை ஏற்பட்டது.
-pdfjs-invalid-file-error = செல்லுபடியாகாத அல்லது சிதைந்த PDF கோப்பு.
-pdfjs-missing-file-error = PDF கோப்பு காணவில்லை.
-pdfjs-unexpected-response-error = சேவகன் பதில் எதிர்பாரதது.
-pdfjs-rendering-error = இந்தப் பக்கத்தை காட்சிப்படுத்தும் போது ஒரு பிழை ஏற்பட்டது.
+pdfjs-loading-error = Una error s'es producha pendent lo cargament del fichièr PDF.
+pdfjs-invalid-file-error = Fichièr PDF invalid o corromput.
+pdfjs-missing-file-error = Fichièr PDF mancant.
+pdfjs-unexpected-response-error = Responsa de servidor imprevista.
+pdfjs-rendering-error = Una error s'es producha pendent l'afichatge de la pagina.
 
 ## Annotations
 
+# Variables:
+#   $date (Date) - the modification date of the annotation
+#   $time (Time) - the modification time of the annotation
+pdfjs-annotation-date-string = { $date } a { $time }
 # .alt: This is used as a tooltip.
 # Variables:
 #   $type (String) - an annotation type from a list defined in the PDF spec
 # (32000-1:2008 Table 169 – Annotation types).
 # Some common types are e.g.: "Check", "Text", "Comment", "Note"
 pdfjs-text-annotation-type =
-    .alt = [{ $type } விளக்கம்]
+    .alt = [Anotacion { $type }]
 
 ## Password
 
-pdfjs-password-label = இந்த PDF கோப்பை திறக்க கடவுச்சொல்லை உள்ளிடவும்.
-pdfjs-password-invalid = செல்லுபடியாகாத கடவுச்சொல், தயை செய்து மீண்டும் முயற்சி செய்க.
-pdfjs-password-ok-button = சரி
-pdfjs-password-cancel-button = ரத்து
-pdfjs-web-fonts-disabled = வலை எழுத்துருக்கள் முடக்கப்பட்டுள்ளன: உட்பொதிக்கப்பட்ட PDF எழுத்துருக்களைப் பயன்படுத்த முடியவில்லை.
+pdfjs-password-label = Picatz lo senhal per dobrir aqueste fichièr PDF.
+pdfjs-password-invalid = Senhal incorrècte. Tornatz ensajar.
+pdfjs-password-ok-button = D'acòrdi
+pdfjs-password-cancel-button = Anullar
+pdfjs-web-fonts-disabled = Las polissas web son desactivadas : impossible d'utilizar las polissas integradas al PDF.
 
 ## Editing
 
+pdfjs-editor-free-text-button =
+    .title = Tèxte
+pdfjs-editor-free-text-button-label = Tèxte
+pdfjs-editor-ink-button =
+    .title = Dessenhar
+pdfjs-editor-ink-button-label = Dessenhar
+pdfjs-editor-stamp-button =
+    .title = Apondre o modificar d’imatges
+pdfjs-editor-stamp-button-label = Apondre o modificar d’imatges
+pdfjs-editor-highlight-button =
+    .title = Subrelinhar
+pdfjs-editor-highlight-button-label = Subrelinhar
+pdfjs-highlight-floating-button1 =
+    .title = Subrelinhar
+    .aria-label = Subrelinhar
+pdfjs-highlight-floating-button-label = Subrelinhar
+
+## Remove button for the various kind of editor.
+
+pdfjs-editor-remove-ink-button =
+    .title = Levar lo dessenh
+pdfjs-editor-remove-freetext-button =
+    .title = Suprimir lo tèxte
+pdfjs-editor-remove-stamp-button =
+    .title = Suprimir l’imatge
+pdfjs-editor-remove-highlight-button =
+    .title = Levar lo suslinhatge
+
+##
+
+# Editor Parameters
+pdfjs-editor-free-text-color-input = Color
+pdfjs-editor-free-text-size-input = Talha
+pdfjs-editor-ink-color-input = Color
+pdfjs-editor-ink-thickness-input = Espessor
+pdfjs-editor-ink-opacity-input = Opacitat
+pdfjs-editor-stamp-add-image-button =
+    .title = Apondre imatge
+pdfjs-editor-stamp-add-image-button-label = Apondre imatge
+# This refers to the thickness of the line used for free highlighting (not bound to text)
+pdfjs-editor-free-highlight-thickness-input = Espessor
+pdfjs-free-text =
+    .aria-label = Editor de tèxte
+pdfjs-free-text-default-content = Començatz d’escriure…
+pdfjs-ink =
+    .aria-label = Editor de dessenh
+pdfjs-ink-canvas =
+    .aria-label = Imatge creat per l’utilizaire
 
 ## Alt-text dialog
 
+# Alternative text (alt text) helps when people can't see the image.
+pdfjs-editor-alt-text-button-label = Tèxt alternatiu
+pdfjs-editor-alt-text-edit-button-label = Modificar lo tèxt alternatiu
+pdfjs-editor-alt-text-dialog-label = Causir una opcion
+pdfjs-editor-alt-text-add-description-label = Apondre una descripcion
+pdfjs-editor-alt-text-cancel-button = Anullar
+pdfjs-editor-alt-text-save-button = Enregistrar
 
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
+
+## Color picker
+
+# This means "Color used to highlight text"
+pdfjs-editor-highlight-colorpicker-label = Color de suslinhatge
+pdfjs-editor-colorpicker-button =
+    .title = Cambiar de color
+pdfjs-editor-colorpicker-dropdown =
+    .aria-label = Causida de colors
+pdfjs-editor-colorpicker-yellow =
+    .title = Jaune
+pdfjs-editor-colorpicker-green =
+    .title = Verd
+pdfjs-editor-colorpicker-blue =
+    .title = Blau
+pdfjs-editor-colorpicker-pink =
+    .title = Ròse
+pdfjs-editor-colorpicker-red =
+    .title = Roge
+
+## Show all highlights
+## This is a toggle button to show/hide all the highlights.
+
+pdfjs-editor-highlight-show-all-button-label = O afichar tot
+pdfjs-editor-highlight-show-all-button =
+    .title = O afichar tot
